@@ -20,8 +20,8 @@ const skills = [
 const Skills = () => {
   return (
     <section className="p-8 bg-white">
-      <h2 className="text-3xl font-bold mb-4 text-center">Skills</h2>
-      <div className="flex space-x-4 justify-center">
+      <h2 className="text-3xl font-bold mb-12 mt-12 text-center">Skills</h2>
+      <div className="flex space-x-4 justify-center gap-12 mb-12">
         {skills.map((skill, index) => (
           <div key={index} className="flex flex-col items-center">
             <skill.icon className="w-16 h-16" style={{ color: skill.color }} />
