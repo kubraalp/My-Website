@@ -1,0 +1,69 @@
+{
+  "header": {
+    "darkMode": "KARANLIK MOD",
+    "lightMode": "AYDINLIK MOD",
+    "changeLanguage": "İNGİLİZCE",
+    "add":"YE GEÇ",
+    "greeting": "Merhaba! 👋",
+    "intro": "Merhaba, ben Kübra. Ön yüz geliştiricisiyim. Sağlam ve ölçeklenebilir ön yüz ürünleri tasarlayabilirim. Tanışalım!",
+    "currently": "Şu anda",
+      "Freelancing": "UX, UI",
+      "for": "ve",
+      "Web":"Web Tasarımı",
+      "Project": "Projeleri için serbest çalışıyorum.",
+    "invite": "Beni ekibinize katılmaya davet edin ➝",
+    "email": "kubra.alp.k@gmail.com"
+  },
+  "skills": {
+    "title": "Beceriler",
+    "html": "HTML",
+    "css": "CSS",
+    "javascript": "JAVASCRIPT",
+    "react": "REACT",
+    "redux": "REDUX",
+    "vsCode": "VS CODE",
+    "figma": "FIGMA"
+  },
+  "profile": {
+    "title": "Profil",
+    "basic":"Temel Bilgiler",
+    "basicInfo": {
+      "birthDate": "Doğum Tarihi",
+      "education": "Eğitim",
+      "location": "Konum",
+      "preferredRole": "Tercih Edilen Rol",
+      "university":"Gazi Üniversitesi BÖTE, 2017",
+      "location1":"Ankara, Türkiye"
+    },
+    "aboutMe": "Hakkımda",
+    "aboutMe2": "Yeni beceriler edinme ve kendimi sürekli geliştirme tutkumla, büyüme odaklı bir ön yüz geliştiricisiyim. Altı yıl boyunca Eğitim Teknolojileri uzmanı olarak çalıştıktan sonra, kendimi yazılım geliştirme alanında ilerletmek için yoğun bir Workintech ön yüz geliştirme programını başarıyla tamamladım. Güçlü iletişim ve problem çözme becerilerimle birlikte, yazılım geliştirme alanında yetkin bir profesyonel olma yolunda ilerlemeye hazırım ve takım çalışmasına olan bağlılığımı vurguluyorum."
+  },
+  "projects": {
+    "title": "Projeler",
+    "project1": {
+      "title": "Teknolojik Yemekler",
+      "description": "Arayüz, HTML, CSS, JavaScript, React kullanılarak oluşturuldu. Bilgisayarın önünde aç kalan yazılım geliştiricilere yiyecek getirmek için 'Teknolojik Yiyecekler' markası için ana sayfa, sipariş formu ve sipariş alındı sayfasıyla bir web sitesi oluşturuldu.",
+      "viewOnGitHub": "GitHub'da Görüntüle",
+      "goToApp": "Uygulamaya Git →"
+    },
+    "project2": {
+      "title": "X-Mockup",
+      "description": "X arayüzü HTML, Styled Component, JavaScript, React kullanılarak oluşturuldu. Kullanıcı adı ve kullanıcı adı ile giriş yapar. Tweet atma işlemini gerçekleştirir.",
+      "viewOnGitHub": "GitHub'da Görüntüle",
+      "goToApp": "Uygulamaya Git →"
+    }
+  },
+  "footer": {
+    "callToAction": "Bir sonraki ürününüz üzerinde birlikte çalışalım.",
+    "links": {
+      "github": "Github",
+      "personalBlog": "Kişisel Blog",
+      "linkedin": "Linkedin",
+      "email": "E-posta"
+    }
+  },
+  "languageSwitcher": {
+    "changeToEnglish": "English",
+    "changeToTurkish": "Turkish"
+  }
+}
