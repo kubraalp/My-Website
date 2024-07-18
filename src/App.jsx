@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./i18n";
-
+import "./index.css";
 function App() {
   const dispatch = useDispatch();
   const { i18n } = useTranslation();
@@ -26,7 +26,7 @@ function App() {
 
   return (
     <Provider store={store}>
-      <div>
+      <div className="app-container">
         <ToastContainer position="top-left" />
         <Header />
         <Skills />

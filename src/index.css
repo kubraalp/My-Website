@@ -44,3 +44,19 @@
     border-radius: 50%;
     background-color: black;
   }
+
+
+ /* App.css */
+ .app-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+
+@media (max-width: 767px) {
+  .app-container {
+    grid-template-columns: 1fr; /* Mobil cihazlar için tek sütunlu düzen */
+  }
+}
