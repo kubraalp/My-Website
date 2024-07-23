@@ -4,7 +4,7 @@
       "darkMode": "DARK MODE",
       "lightMode": "LIGHT MODE",
       "changeLanguage": "TÜRKÇE",
-      "add":"YE GEÇ",
+      "add":"'YE GEÇ",
       "greeting": "Hi! 👋",
       "intro": "I'm Kübra. I'm a front-end developer. I can craft solid and scalable frontend products. Let's meet!",
       "currently": "Currently",
@@ -41,13 +41,13 @@
     },
     "projects": {
       "title": "Projects",
-      "project1": {
+      "0": {
         "title": "Technological Foods",
         "description": "Interface was created using HTML, CSS, JavaScript, React. A website designed to bring food to software developers who are hungry in front of the computer was created for the 'Technological Foods' brand, with a Homepage, Order Form and Order Received page.",
         "viewOnGitHub": "View on GitHub",
         "goToApp": "Go to app →"
       },
-      "project2": {
+      "1": {
         "title": "X-Mockup",
         "description": "Created X interface using HTML, Styled Component, JavaScript, React. The user logs in with their name and username. Performs the action of tweeting.",
         "viewOnGitHub": "View on GitHub",

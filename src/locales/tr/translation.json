@@ -3,7 +3,7 @@
     "darkMode": "KARANLIK MOD",
     "lightMode": "AYDINLIK MOD",
     "changeLanguage": "İNGİLİZCE",
-    "add":"YE GEÇ",
+    "add":"'YE GEÇ",
     "greeting": "Merhaba! 👋",
     "intro": "Merhaba, ben Kübra. Ön yüz geliştiricisiyim. Sağlam ve ölçeklenebilir ön yüz ürünleri tasarlayabilirim. Tanışalım!",
     "currently": "Şu anda",
@@ -40,13 +40,13 @@
   },
   "projects": {
     "title": "Projeler",
-    "project1": {
+    "0": {
       "title": "Teknolojik Yemekler",
       "description": "Arayüz, HTML, CSS, JavaScript, React kullanılarak oluşturuldu. Bilgisayarın önünde aç kalan yazılım geliştiricilere yiyecek getirmek için 'Teknolojik Yiyecekler' markası için ana sayfa, sipariş formu ve sipariş alındı sayfasıyla bir web sitesi oluşturuldu.",
       "viewOnGitHub": "GitHub'da Görüntüle",
       "goToApp": "Uygulamaya Git →"
     },
-    "project2": {
+    "1": {
       "title": "X-Mockup",
       "description": "X arayüzü HTML, Styled Component, JavaScript, React kullanılarak oluşturuldu. Kullanıcı adı ve kullanıcı adı ile giriş yapar. Tweet atma işlemini gerçekleştirir.",
       "viewOnGitHub": "GitHub'da Görüntüle",
