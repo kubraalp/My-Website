@@ -17,7 +17,7 @@ const Header = () => {
   };
 
   return (
-    <header className="p-8 bg-gray-100 flex flex-col items-center dark:bg-darkBackGround1">
+    <header className="p-8 bg-gray-100 flex flex-col items-center dark:bg-darkBackGround1 ">
       <div className="w-full max-w-5xl flex justify-end mb-4">
         <button
           className="flex items-center px-5 text-gray-500 dark:text-customGray"
@@ -96,7 +96,7 @@ const Header = () => {
           <img
             src={ProfileImg}
             alt={t("header.profileImageAlt")}
-            className="w-[600px] h-auto rounded-lg z-10 translate-x-4 translate-y-4"
+            className="w-[350px] h-auto rounded-lg z-10 translate-x-4 translate-y-4"
           />
         </div>
       </div>
