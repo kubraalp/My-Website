@@ -1,21 +1,20 @@
-// src/i18n.js
-import i18n from 'i18next';
-import { initReactI18next } from 'react-i18next';
-import LanguageDetector from 'i18next-browser-languagedetector';
-import enTranslation from './locales/en/translation.json';
-import trTranslation from './locales/tr/translation.json';
+import i18n from "i18next";
+import { initReactI18next } from "react-i18next";
+import LanguageDetector from "i18next-browser-languagedetector";
+import enTranslation from "./locales/en/translation.json";
+import trTranslation from "./locales/tr/translation.json";
 
 const resources = {
   en: {
-    translation: enTranslation
+    translation: enTranslation,
   },
   tr: {
-    translation: trTranslation
-  }
+    translation: trTranslation,
+  },
 };
 
 // Dil seçimlerini localStorage'dan okuma
-const language = localStorage.getItem('language') || 'en';
+const language = localStorage.getItem("language") || "en";
 
 i18n
   .use(LanguageDetector) // Kullanıcının dilini algılamak için
@@ -23,15 +22,15 @@ i18n
   .init({
     resources,
     lng: language, // Başlangıç dili
-    fallbackLng: 'en',
+    fallbackLng: "en",
     interpolation: {
-      escapeValue: false
-    }
+      escapeValue: false,
+    },
   });
 
 // Dil değişimi yapıldığında localStorage'a kaydetme
-i18n.on('languageChanged', (lng) => {
-  localStorage.setItem('language', lng);
+i18n.on("languageChanged", (lng) => {
+  localStorage.setItem("language", lng);
 });
 
 export default i18n;

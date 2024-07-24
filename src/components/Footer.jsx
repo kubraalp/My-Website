@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const Footer = () => {
-  const { t } = useTranslation(); // useTranslation'dan t fonksiyonunu al
+  const { t } = useTranslation(); 
   const { changeLanguage } = useLanguage();
 
   return (
@@ -23,7 +23,7 @@ const Footer = () => {
             {t('Github')}
           </a>
           <a
-            href="https://example.com/personal-blog" // Buraya gerçek URL ekleyin
+            href="https://kubra-alp.vercel.app/" 
             target="_blank"
             rel="noopener noreferrer"
             className="mb-2"

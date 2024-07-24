@@ -45,14 +45,11 @@
   background-color: black;
 }
 
-
-/* App.css */
 .app-container {
   display: grid;
   grid-template-columns: 1fr;
   padding: 10px;
 }
-
 
 @media (max-width: 767px) {
   .app-container {

@@ -96,7 +96,7 @@ const Header = () => {
           <img
             src={ProfileImg}
             alt={t("header.profileImageAlt")}
-            className="w-[350px] h-auto rounded-lg z-10 translate-x-4 translate-y-4"
+            className="w-[400px] h-auto rounded-lg z-10 translate-x-4 translate-y-4"
           />
         </div>
       </div>

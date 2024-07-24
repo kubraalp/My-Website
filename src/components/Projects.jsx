@@ -1,5 +1,4 @@
-// Projects.jsx
-import React from "react";
+
 import { useTranslation } from "react-i18next";
 import ProjectCard from "./ProjectCard";
 import image1 from "../img/project1.png";

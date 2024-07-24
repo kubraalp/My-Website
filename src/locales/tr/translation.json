@@ -5,7 +5,7 @@
     "changeLanguage": "İNGİLİZCE",
     "add":"'YE GEÇ",
     "greeting": "Merhaba! 👋",
-    "intro": "Merhaba, ben Kübra. Ön yüz geliştiricisiyim. Sağlam ve ölçeklenebilir ön yüz ürünleri tasarlayabilirim. Tanışalım!",
+    "intro": "Merhaba, ben Kübra. frontend geliştiricisiyim. Sağlam ve ölçeklenebilir frontend ürünleri tasarlayabilirim. Haydi Tanışalım!",
     "currently": "Şu anda",
       "Freelancing": "UX, UI",
       "for": "ve",
@@ -36,19 +36,19 @@
       "location1":"Ankara, Türkiye"
     },
     "aboutMe": "Hakkımda",
-    "aboutMe2": "Yeni beceriler edinme ve kendimi sürekli geliştirme tutkumla, büyüme odaklı bir ön yüz geliştiricisiyim. Altı yıl boyunca Eğitim Teknolojileri uzmanı olarak çalıştıktan sonra, kendimi yazılım geliştirme alanında ilerletmek için yoğun bir Workintech ön yüz geliştirme programını başarıyla tamamladım. Güçlü iletişim ve problem çözme becerilerimle birlikte, yazılım geliştirme alanında yetkin bir profesyonel olma yolunda ilerlemeye hazırım ve takım çalışmasına olan bağlılığımı vurguluyorum."
+    "aboutMe2": "Yeni beceriler edinme ve kendimi sürekli geliştirme tutkumla, büyüme odaklı bir frontend geliştiricisiyim. Altı yıl boyunca Eğitim Teknolojileri uzmanı olarak çalıştıktan sonra, kendimi yazılım geliştirme alanında ilerletmek için yoğun bir Workintech frontend programını başarıyla tamamladım. Güçlü iletişim ve problem çözme becerilerimle birlikte, yazılım geliştirme alanında yetkin bir profesyonel olma yolunda ilerlemeye hazırım ve takım çalışmasına olan bağlılığımı vurguluyorum."
   },
   "projects": {
     "title": "Projeler",
     "0": {
       "title": "Teknolojik Yemekler",
-      "description": "Arayüz, HTML, CSS, JavaScript, React kullanılarak oluşturuldu. Bilgisayarın önünde aç kalan yazılım geliştiricilere yiyecek getirmek için 'Teknolojik Yiyecekler' markası için ana sayfa, sipariş formu ve sipariş alındı sayfasıyla bir web sitesi oluşturuldu.",
+      "description": "Arayüz, HTML, CSS, JavaScript, React kullanılarak oluşturuldu. 'Teknolojik Yemekler' markası bilgisayar karşısında aç kalan yazılımcılara yemek ulaştırmak amacıyla tasarlanan bu site, Ana Sayfa Sipariş Formu ve Sipariş Alındı sayfası içeriyor.",
       "viewOnGitHub": "GitHub'da Görüntüle",
       "goToApp": "Uygulamaya Git →"
     },
     "1": {
       "title": "X-Mockup",
-      "description": "X arayüzü HTML, Styled Component, JavaScript, React kullanılarak oluşturuldu. Kullanıcı adı ve kullanıcı adı ile giriş yapar. Tweet atma işlemini gerçekleştirir.",
+      "description": "HTML, Styled Components, JavaScript ve React kullanılarak modern ve işlevsel bir X arayüzü oluşturuldu. Kullanıcılar kullanıcı adı ve şifreleri ile giriş yaparak tweet atabilirler.",
       "viewOnGitHub": "GitHub'da Görüntüle",
       "goToApp": "Uygulamaya Git →"
     }
