@@ -32,7 +32,7 @@ const ProjectCard = ({ project, index }) => {
         className="h-full flex justify-center items-center overflow-visible -mt-20"
         style={{
           background:
-            'url("https://s3-alpha-sig.figma.com/img/600f/f411/f246155782db0594c00c688cdbf27f80?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VRonMx6Xiv5VYALsZHrXsU-AvNTvj1q5gBb4-j8NVfZTCHx7UgZhUL1th0V44h2GS3VwmAZbRp6~vQ-AquNGy2BcoObgRbzj-jvKgu36bcDLVxQIOnGqOdTWSkOiUZT4GzsLxK~yYzxhNa5QR1KGaFsSAzHPKq2QzD9yoN1p5m2-1Ck55AFZJ4dxnigSEudgi-Y9Uc799HVVuh~nhVdeNHcoYVcV06Sj6GEoZXxQnZy-OCjY1iuNwxRTy9mq83B7YBRXx-KWX8y0ySuJwri5V3yL-Ma-HlKy2-pe4SVJ~9YI~-FVToviwf15mqlR5d-QELujYMoffYzCwBzqjcNGuQ__") no-repeat center center',
+            'url("https://s3-alpha-sig.figma.com/img/600f/f411/f246155782db0594c00c688cdbf27f80?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EMILT03XD4vtjJwh05X0fE6y55pdQ5P7iQMhbrDVcZuSZSyIqu-~M87e4nEjqxq-nxSob30qHmynvqHczOPKoi81nmuMO2CvlNsEc-9Arh8d3m1KnWHip-ch5j~6rWsShVqjBooO~YSgDL5XQ6QtEmsfF46JzlwfFWikF~DVmUEcN~jQRET2N1nWzrdX1jxXtvMNVk9tPL0OSJRMXzvDKqx3snv1tNKmHNsoLzO2qY08luLwuJT8vE2ceJXT~lTEAtdiV5UkhVfrFhTaEuLxuh-pqDpdDmFykSsZWhe5ieuluUWLdKjYd36byL9ezOrcvSScxtkd41qoK~FWF8W13g__") no-repeat center center',
           backgroundSize: "450px",
         }}
       >
