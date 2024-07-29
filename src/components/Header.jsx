@@ -26,6 +26,7 @@ const Header = () => {
         >
           <input
             type="checkbox"
+            onClick={toggleDarkMode}
             checked={darkMode}
             onChange={toggleDarkMode}
             className="toggle-checkbox"
