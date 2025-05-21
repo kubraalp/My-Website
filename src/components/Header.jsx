@@ -17,10 +17,10 @@ const Header = () => {
   };
 
   return (
-    <header className="p-8 bg-gray-100 flex flex-col items-center dark:bg-darkBackGround1 ">
-      <div className="w-full max-w-5xl flex justify-end mb-4">
+    <header className="p-4 sm:p-8 bg-gray-100 flex flex-col items-center dark:bg-darkBackGround1 w-full overflow-hidden">
+      <div className="w-full max-w-5xl flex flex-nowrap justify-end mb-4 text-sm sm:text-base overflow-x-auto">
         <button
-          className="flex items-center px-5 text-gray-500 dark:text-customGray"
+          className="flex items-center px-2 sm:px-5 text-gray-500 dark:text-customGray whitespace-nowrap"
           onClick={toggleDarkMode}
           aria-label={darkMode ? t("header.lightMode") : t("header.darkMode")}
         >
@@ -32,13 +32,18 @@ const Header = () => {
             className="toggle-checkbox"
             aria-label={darkMode ? t("header.lightMode") : t("header.darkMode")}
           />
-          <span className="ml-2 font-semibold text-base">
+          <span className="ml-2 font-semibold text-xs sm:text-base">
             {darkMode ? t("header.lightMode") : t("header.darkMode")}
           </span>
         </button>
-        <span className="flex items-center mr-5 text-gray-500"> | </span>
+
+        <span className="flex items-center mx-2 sm:mr-5 text-gray-500 whitespace-nowrap">
+          {" "}
+          |{" "}
+        </span>
+
         <button
-          className="text-customPink hover:text-customPink font-semibold"
+          className="text-customPink hover:text-customPink font-semibold text-xs sm:text-base whitespace-nowrap"
           onClick={() =>
             handleLanguageChange(i18n.language === "en" ? "tr" : "en")
           }
@@ -46,13 +51,18 @@ const Header = () => {
         >
           {i18n.language === "en" ? "TÜRKÇE" : "İNGİLİZCE"}
         </button>
-        <span className="text-gray-500">{t("header.add")}</span>
+
+        <div className="inline-flex flex-nowrap items-center whitespace-nowrap">
+          <span className="text-gray-500 text-xs sm:text-base inline-block">
+            {t("header.add")}
+          </span>
+        </div>
       </div>
 
       <div className="w-full max-w-5xl flex flex-col md:flex-row items-center mb-4 dark:text-white">
-        <div className="text-center md:text-left mb-4 md:mb-0">
-          <p className="text-2xl mt-2">{t("header.greeting")}</p>
-          <h2 className="text-5xl mt-2 mr-20 font-medium leading-[64px] text-customBlack dark:text-white">
+        <div className="text-center md:text-left mb-4 md:mb-0 px-2 sm:px-0 w-full md:w-auto">
+          <p className="text-xl sm:text-2xl mt-2">{t("header.greeting")}</p>
+          <h2 className="text-2xl sm:text-3xl md:text-5xl mt-2 font-medium leading-tight sm:leading-tight md:leading-[64px] text-customBlack dark:text-white break-words">
             {t("header.intro")}
           </h2>
           <div className="flex justify-center md:justify-start mt-4">
@@ -63,7 +73,7 @@ const Header = () => {
               className="text-black hover:text-customPink mr-4 dark:text-white"
               aria-label="LinkedIn Profilim"
             >
-              <FiLinkedin size={24} />
+              <FiLinkedin size={20} className="sm:w-6 sm:h-6" />
             </a>
             <a
               href="https://github.com/kubraalp"
@@ -72,17 +82,17 @@ const Header = () => {
               className="text-black hover:text-customPink mr-4 dark:text-white"
               aria-label="GitHub Profilim"
             >
-              <FaGithub size={24} />
+              <FaGithub size={20} className="sm:w-6 sm:h-6" />
             </a>
           </div>
-          <p className="mt-2 text-gray-600 dark:text-white">
+          <p className="mt-2 text-sm sm:text-base text-gray-600 dark:text-white">
             {t("header.currently")}{" "}
             <span className="text-customPink">{t("header.Freelancing")}</span>{" "}
             <span>{t("header.for")} </span>
             <span className="text-customPink">{t("header.Web")} </span>
             <span>{t("header.Project")} </span>
           </p>
-          <p className="mt-2 text-gray-600 dark:text-white">
+          <p className="mt-2 text-sm sm:text-base text-gray-600 dark:text-white">
             {t("header.invite")}{" "}
             <a
               href="mailto:kubra.alp.k@gmail.com"
@@ -93,11 +103,11 @@ const Header = () => {
             </a>
           </p>
         </div>
-        <div className="relative bg-customPink p-1 rounded-xl md:ml-8 mb-4 md:mb-0">
+        <div className="relative bg-customPink p-1 rounded-xl md:ml-8 mb-4 md:mb-0 w-[280px] sm:w-auto max-w-full">
           <img
             src={ProfileImg}
-            alt={t("header.profileImageAlt")}
-            className="w-[400px] h-auto rounded-lg z-10 translate-x-4 translate-y-4"
+            alt="Profile"
+            className="w-full sm:w-[400px] h-auto rounded-lg z-10 translate-x-2 translate-y-2 sm:translate-x-4 sm:translate-y-4 max-w-full"
           />
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from "react-i18next";
 import {
   SiHtml5,
   SiCss3,
@@ -22,17 +22,25 @@ const skills = [
 
 const Skills = () => {
   const { t } = useTranslation();
-  
+
   return (
-    <section className="p-8 bg-white dark:bg-darkBackGround2">
-      <h2 className="text-3xl font-bold mb-12 mt-12 text-center dark:text-white">
-        {t('skills.title')}
+    <section className="p-4 sm:p-8 bg-white dark:bg-darkBackGround2">
+      <h2 className="text-2xl sm:text-3xl font-bold mb-6 sm:mb-12 mt-6 sm:mt-12 text-center dark:text-white">
+        {t("skills.title")}
       </h2>
-      <div className="flex flex-wrap space-x-4 font-bold justify-center gap-12 mb-12 dark:text-white">
+      <div className="flex flex-wrap justify-center gap-6 sm:gap-12 mb-8 sm:mb-12 dark:text-white">
         {skills.map((skill, index) => (
-          <div key={index} className="flex flex-col items-center">
-            <skill.icon className="w-20 h-20" style={{ color: skill.color }} />
-            <p className="mt-2">{t(`skills.${skill.name}`)}</p>
+          <div
+            key={index}
+            className="flex flex-col items-center w-[28%] sm:w-auto mb-4 sm:mb-0"
+          >
+            <skill.icon
+              className="w-12 h-12 sm:w-20 sm:h-20"
+              style={{ color: skill.color }}
+            />
+            <p className="mt-2 text-xs sm:text-base text-center">
+              {t(`skills.${skill.name}`)}
+            </p>
           </div>
         ))}
       </div>

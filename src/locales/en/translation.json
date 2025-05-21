@@ -1,70 +1,70 @@
 {
-  
-    "header": {
-      "darkMode": "DARK MODE",
-      "lightMode": "LIGHT MODE",
-      "changeLanguage": "TÜRKÇE",
-      "add":"'YE GEÇ",
-      "greeting": "Hi! 👋",
-      "intro": "I'm Kübra. I'm a front-end developer. I can craft solid and scalable frontend products. Let's meet!",
-      "currently": "Currently",
-      "Freelancing": "Freelancing",
-      "for": "for",
-      "Web":"UX, UI, & Web Design",
-      "Project": "Project",
-      "invite": "Invite me to join your team ➝",
-      "email": "kubra.alp.k@gmail.com"
+  "header": {
+    "darkMode": "DARK MODE",
+    "lightMode": "LIGHT MODE",
+    "changeLanguage": "TÜRKÇE",
+    "add": "'YE GEÇ",
+    "greeting": "Hi! 👋",
+    "intro": "I'm Kübra. I'm a front-end developer. I can craft solid and scalable frontend products. Let's meet!",
+    "currently": "Currently",
+    "Freelancing": "Freelancing",
+    "for": "for",
+    "Web": "UX, UI, & Web Design",
+    "Project": "Project",
+    "invite": "Invite me to join your team ➝",
+    "email": "kubra.alp.k@gmail.com"
+  },
+  "loading": "Loading...",
+  "skills": {
+    "title": "Skills",
+    "html": "HTML",
+    "css": "CSS",
+    "javascript": "JAVASCRIPT",
+    "react": "REACT",
+    "redux": "REDUX",
+    "vsCode": "VS CODE",
+    "figma": "FIGMA"
+  },
+  "profile": {
+    "title": "Profile",
+    "basic": "Basic Information",
+    "basicInfo": {
+      "birthDate": "Birth Date",
+      "education": "Education",
+      "location": "Location",
+      "preferredRole": "Preferred Role",
+      "university": "Gazi University CEIT, 2017",
+      "location1": "Ankara, Türkiye"
     },
-    "skills": {
-      "title": "Skills",
-      "html": "HTML",
-      "css": "CSS",
-      "javascript": "JAVASCRIPT",
-      "react": "REACT",
-      "redux": "REDUX",
-      "vsCode": "VS CODE",
-      "figma": "FIGMA"
+    "aboutMe2": "With my passion for acquiring new skills and continuously improving myself, I am an enthusiastic front-end developer with a growth mindset. After working as an Educational Technology specialist for six years, I successfully completed an intensive Workintech front-end development program to advance myself in the software development field. Alongside my strong communication and problem-solving skills, I am ready to progress towards becoming a proficient professional in software development, emphasizing my dedication to teamwork.",
+    "aboutMe": "About me"
+  },
+  "projects": {
+    "title": "Projects",
+    "0": {
+      "title": "Technological Foods",
+      "description": "Interface was created using HTML, CSS, JavaScript, React. A website designed to bring food to software developers who are hungry in front of the computer was created for the 'Technological Foods' brand, with a Homepage, Order Form and Order Received page.",
+      "viewOnGitHub": "View on GitHub",
+      "goToApp": "Go to app →"
     },
-    "profile": {
-      "title": "Profile",
-      "basic":"Basic Information",
-      "basicInfo": {
-        "birthDate": "Birth Date",
-        "education": "Education",
-        "location": "Location",
-        "preferredRole": "Preferred Role",
-        "university":"Gazi University CEIT, 2017",
-        "location1":"Ankara, Türkiye"
-      },
-      "aboutMe2": "With my passion for acquiring new skills and continuously improving myself, I am an enthusiastic front-end developer with a growth mindset. After working as an Educational Technology specialist for six years, I successfully completed an intensive Workintech front-end development program to advance myself in the software development field. Alongside my strong communication and problem-solving skills, I am ready to progress towards becoming a proficient professional in software development, emphasizing my dedication to teamwork.",
-      "aboutMe": "About me"
-    },
-    "projects": {
-      "title": "Projects",
-      "0": {
-        "title": "Technological Foods",
-        "description": "Interface was created using HTML, CSS, JavaScript, React. A website designed to bring food to software developers who are hungry in front of the computer was created for the 'Technological Foods' brand, with a Homepage, Order Form and Order Received page.",
-        "viewOnGitHub": "View on GitHub",
-        "goToApp": "Go to app →"
-      },
-      "1": {
-        "title": "X-Mockup",
-        "description": "Created X interface using HTML, Styled Component, JavaScript, React. The user logs in with their name and username. Performs the action of tweeting.",
-        "viewOnGitHub": "View on GitHub",
-        "goToApp": "Go to app →"
-      }
-    },
-    "footer": {
-      "callToAction": "Let’s work together on your next product.",
-      "links": {
-        "github": "Github",
-        "personalBlog": "Personal Blog",
-        "linkedin": "Linkedin",
-        "email": "Email"
-      }
-    },
-    "languageSwitcher": {
-        "changeToEnglish": "English",
-        "changeToTurkish": "Turkish"
+    "1": {
+      "title": "X-Mockup",
+      "description": "Created X interface using HTML, Styled Component, JavaScript, React. The user logs in with their name and username. Performs the action of tweeting.",
+      "viewOnGitHub": "View on GitHub",
+      "goToApp": "Go to app →"
     }
+  },
+  "footer": {
+    "callToAction": "Let's work together on your next product.",
+    "links": {
+      "github": "Github",
+      "personalBlog": "Personal Blog",
+      "linkedin": "Linkedin",
+      "email": "Email"
+    }
+  },
+  "languageSwitcher": {
+    "changeToEnglish": "English",
+    "changeToTurkish": "Turkish"
   }
+}

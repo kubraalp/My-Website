@@ -9,7 +9,7 @@ function App() {
   return (
     <ThemeProvider>
       <LanguageProvider>
-        <div className=" app-container">
+        <div className="app-container">
           <AppContent />
         </div>
       </LanguageProvider>

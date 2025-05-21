@@ -3,17 +3,18 @@
     "darkMode": "KARANLIK MOD",
     "lightMode": "AYDINLIK MOD",
     "changeLanguage": "İNGİLİZCE",
-    "add":"'YE GEÇ",
+    "add": "'YE GEÇ",
     "greeting": "Merhaba! 👋",
     "intro": "Merhaba, ben Kübra. frontend geliştiricisiyim. Sağlam ve ölçeklenebilir frontend ürünleri tasarlayabilirim. Haydi Tanışalım!",
     "currently": "Şu anda",
-      "Freelancing": "UX, UI",
-      "for": "ve",
-      "Web":"Web Tasarımı",
-      "Project": "Projeleri için serbest çalışıyorum.",
+    "Freelancing": "UX, UI",
+    "for": "ve",
+    "Web": "Web Tasarımı",
+    "Project": "Projeleri için serbest çalışıyorum.",
     "invite": "Beni ekibinize katılmaya davet edin ➝",
     "email": "kubra.alp.k@gmail.com"
   },
+  "loading": "Yükleniyor...",
   "skills": {
     "title": "Beceriler",
     "html": "HTML",
@@ -26,14 +27,14 @@
   },
   "profile": {
     "title": "Profil",
-    "basic":"Temel Bilgiler",
+    "basic": "Temel Bilgiler",
     "basicInfo": {
       "birthDate": "Doğum Tarihi",
       "education": "Eğitim",
       "location": "Konum",
       "preferredRole": "Tercih Edilen Rol",
-      "university":"Gazi Üniversitesi BÖTE, 2017",
-      "location1":"Ankara, Türkiye"
+      "university": "Gazi Üniversitesi BÖTE, 2017",
+      "location1": "Ankara, Türkiye"
     },
     "aboutMe": "Hakkımda",
     "aboutMe2": "Yeni beceriler edinme ve kendimi sürekli geliştirme tutkumla, büyüme odaklı bir frontend geliştiricisiyim. Altı yıl boyunca Eğitim Teknolojileri uzmanı olarak çalıştıktan sonra, kendimi yazılım geliştirme alanında ilerletmek için yoğun bir Workintech frontend programını başarıyla tamamladım. Güçlü iletişim ve problem çözme becerilerimle birlikte, yazılım geliştirme alanında yetkin bir profesyonel olma yolunda ilerlemeye hazırım ve takım çalışmasına olan bağlılığımı vurguluyorum."
